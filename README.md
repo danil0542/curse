@@ -2,6 +2,37 @@
 
 This is a Java Spring Boot project that uses Maven as the build tool, requires Java 17, and interacts with PostgreSQL.
 
+### Functional Requirements:
+
+- Registration and Authorization:
+Users can create accounts as clients or freelancers.
+Clients and freelancers can log into their accounts using email and password.
+- Search and Filtering:
+Clients can search for freelancers by project categories, skills, ratings, etc.
+Freelancers can search for projects by categories, budgets, deadlines, etc.
+- Project Creation and Management:
+Clients can create new projects, set budgets, describe requirements, and conditions.
+Freelancers can view available projects and submit proposals for execution.
+- Communication:
+Clients and freelancers can communicate within each project, exchanging messages and files.
+- Rating and Reviews:
+Clients can rate the work of freelancers and leave reviews after project completion.
+Freelancers can rate clients.
+
+### Non-functional Requirements:
+
+- Performance:
+The system should respond to user requests in no more than 2 seconds.
+- Security:
+Data transmission between the user and the server must be encrypted using the HTTPS protocol.
+Users should have access rights to their own data but not to the data of other users.
+- Reliability:
+The system should ensure 99% service availability throughout the month.
+- Scalability:
+The system should be able to scale to handle growing user traffic without a noticeable decrease in performance.
+- Compatibility:
+The system should work correctly on different web browsers (Chrome, Firefox, Safari, Edge) and devices of different sizes (tablets, mobile phones, desktop computers).
+
 ## Prerequisites
 
 Make sure you have the following software installed on your machine:
